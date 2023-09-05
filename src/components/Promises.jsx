@@ -8,7 +8,7 @@ const promises = () => {
 
                   <div className="container">
                         <div className='row'>
-                              <h5 className='text-center'>Our Promises</h5>
+                              <h5 className='text-center text-lg-start'>Our Promises</h5>
                         </div>
                         <div className="row row-cols-2 row-cols-lg-4 mt-3 mb-5 justify-content-between">
                               <div className="col mb-4">

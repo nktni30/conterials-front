@@ -7,8 +7,8 @@ const AdBanner1 = () => {
       <div className='row'>
         <div className='ad-banner'>
           <div className='row row-cols-lg-2 row-cols-sm-2'>
-            <div className='col-sm-6 col-sm-6'>
-              <img alt='ban' className='img-fluid' src={add1} />
+            <div className='col-sm-6 col-lg-12'>
+              <img alt='ban' className='img-fluid ' src={add1} />
             </div>
           </div>
         </div>

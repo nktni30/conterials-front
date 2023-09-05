@@ -17,7 +17,7 @@ const PopularProducts = () => {
       return (
             <div className='container py-5'>
                   <div className='row'>
-                        <h5 className='text-center'>Popular Products</h5>
+                        <h5 className='text-center text-lg-start'>Popular Products</h5>
                   </div>
                   <div className='row row-cols-2 row-cols-lg-4 mt-3 mb-5'>
 

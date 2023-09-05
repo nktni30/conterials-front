@@ -13,15 +13,28 @@ const categories = () => {
                 <div className="container">
                     <div className="row mb-3">
                         <div className="col-sm-12">
-                            <h5 className="text-center">Shop by Categories</h5>
+                            <h5 className="text-center text-lg-start">Shop by Categories</h5>
                         </div>
                     </div>
                     <div className="row">
                         <Swiper
                             // install Swiper modules
                             modules={[Navigation, Scrollbar, A11y, Grid]}
-                            spaceBetween={30}
-                            slidesPerView={3}
+                            breakpoints={{
+                                400:{
+                                    slidesPerView: 3,
+                                    spaceBetween:30,
+                                },
+                                768:{
+                                    slidesPerView:5,
+                                    spaceBetween:30,
+                                },
+                                1024:{
+                                    slidesPerView:9,
+                                    spaceBetween:30,
+                                }
+                            }
+                            }
                             freeMode={true}
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}>
