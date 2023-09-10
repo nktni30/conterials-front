@@ -31,8 +31,8 @@ const footer = () => {
                       <li><Link to={"/PrivacyPolicy"} className='con-footer-link text-white text-decoration-none'>Privacy Policy</Link></li>
                       <li><Link to={"/ReturnPolicy"} className='con-footer-link text-white text-decoration-none'>Return Policy</Link></li>
                       <li><Link to={"/Store Locator"} className='con-footer-link text-white text-decoration-none'>Store Locator</Link></li>
-                      <li><Link to={"/FAQs"} className='con-footer-link text-white text-decoration-none'>FAQs</Link></li>
-                      <li><Link to={"/Career"} className='con-footer-link text-white text-decoration-none'>Career</Link></li>
+                      <li><Link to={"/About"} className='con-footer-link text-white text-decoration-none'>FAQs</Link></li>
+                      {/* <li><Link to={"/Career"} className='con-footer-link text-white text-decoration-none'>Career</Link></li> */}
                     </ul>
                   </div>
                 </div>

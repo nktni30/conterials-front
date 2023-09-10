@@ -1,5 +1,5 @@
 import React from 'react';
-import ToolsImg from '../img/banner/tools.png';
+import ToolsImg from '../img/Exterior-Walls-rhs.png';
 
 
 const Banner = () => {
@@ -24,7 +24,7 @@ const Banner = () => {
                               
                         </div>
                         <div className='col-sm-7 d-flex justify-content-center align-items-center'>
-                              <img className='' src={ToolsImg} alt='banner1'/>
+                              <img className='img-fluid banner-img' src={ToolsImg} alt='banner1'/>
                         </div>
                   </div>
                   </div>

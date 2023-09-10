@@ -8,7 +8,7 @@ const PopularProducts = () => {
       return (
             <div className='container my-5'>
                   <div className='row'>
-                        <h5 className='text-center text-lg-start'>Popular Products</h5>
+                        <h5 className='text-lg-start '>Popular Products</h5>
                   </div>
                   <div className="row ">
                         <div className='d-flex justify-content-end'>

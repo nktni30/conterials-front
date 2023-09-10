@@ -50,7 +50,7 @@ p{
 
 
 .banner{
-  height: 50vh;
+  height: auto;
   background-image: linear-gradient(to bottom right, var(--con-dark-primary), var(--con-light-primary) );
   top: 0;
 }

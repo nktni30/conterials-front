@@ -12,9 +12,9 @@ const categories = () => {
             <div className="container-fluid bg-white py-5">
                 <div className="container">
                     <div className="row mb-3">
-                        <div className="col-sm-12">
-                            <h5 className="text-center text-lg-start">Shop by Categories</h5>
-                        </div>
+                        
+                            <h5 className="text-start p-0">Shop by Categories</h5>
+                        
                     </div>
                     <div className="row">
                         <Swiper
@@ -25,6 +25,17 @@ const categories = () => {
                                     slidesPerView: 3,
                                     spaceBetween:30,
                                 },
+
+                                500:{
+                                    slidesPerView: 3,
+                                    spaceBetween:30,
+                                },
+
+                                600:{
+                                    slidesPerView: 3,
+                                    spaceBetween:30,
+                                },
+
                                 768:{
                                     slidesPerView:5,
                                     spaceBetween:30,
