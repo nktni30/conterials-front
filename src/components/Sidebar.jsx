@@ -58,20 +58,20 @@ function ConSidebar() {
                                                 };
                                     },
                               }}>
-                              <SubMenu label="Paints">
-                                    <MenuItem> Fevicol</MenuItem>
+                              <SubMenu label="Painting">
+                                    {/* <MenuItem> Fevicol</MenuItem>
                                     <MenuItem> Putty X2</MenuItem>
-                                    <MenuItem> Primers</MenuItem>
+                                    <MenuItem> Primers</MenuItem> */}
                               </SubMenu>
                               <SubMenu label="Plywoods">
-                                    <MenuItem> Pie charts</MenuItem>
+                                    {/* <MenuItem> Pie charts</MenuItem>
                                     <MenuItem> Line charts</MenuItem>
-                                    <MenuItem> Bar charts</MenuItem>
+                                    <MenuItem> Bar charts</MenuItem> */}
                               </SubMenu>
                               <SubMenu label="Tools">
-                                    <MenuItem> Pie charts</MenuItem>
+                                    {/* <MenuItem> Pie charts</MenuItem>
                                     <MenuItem> Line charts</MenuItem>
-                                    <MenuItem> Bar charts</MenuItem>
+                                    <MenuItem> Bar charts</MenuItem> */}
                               </SubMenu>
                               <SubMenu label="Plumbing"></SubMenu>
                               <SubMenu label="Electrical"></SubMenu>

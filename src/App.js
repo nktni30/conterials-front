@@ -11,6 +11,10 @@ import StoreLocator from "./Pages/StoreLocator";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import ReturnPolicy from "./Pages/ReturnPolicy";
 import ErrorPage from "./Pages/ErrorPage";
+import CreateCategory from "./admin/components/craeteCategory";
+import CreateBrand from "./admin/components/createBrand";
+import CreateSubcategory from "./admin/components/createSubcategory";
+import CreateProdcut from './admin/components/createProduct';
 
 function App() {
   return (
@@ -19,6 +23,7 @@ function App() {
       <Sidebar />
       <Whatsapp />
       <Routes>
+
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
@@ -28,6 +33,10 @@ function App() {
         <Route exact path="/termscondition" element={<TermsCondition />} />
         <Route exact path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route exact path="/returnpolicy" element={<ReturnPolicy />} />
+        <Route exact path="/createcategory" element={<CreateCategory />} />
+        <Route exact path="/createbrand" element={<CreateBrand />} />
+        <Route exact path="/createsubcategory" element={<CreateSubcategory />} />
+        <Route exact path="/createproduct" element={<CreateProdcut />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

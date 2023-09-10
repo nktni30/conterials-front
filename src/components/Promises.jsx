@@ -6,7 +6,7 @@ const promises = () => {
             <>
 
 
-                  <div className="container">
+                  <div className="container my-5">
                         <div className='row'>
                               <h5 className='text-center text-lg-start'>Our Promises</h5>
                         </div>
@@ -14,30 +14,30 @@ const promises = () => {
                               <div className="col mb-4">
                                     <div className='pro-card text-center'>
                                           <span className='promise-icons'>
-                                          <BsBagCheck/>
+                                                <BsBagCheck />
                                           </span>
                                           <div className='text-primary h6 mt-3'>Original</div>
-                                          
+
                                           <div className='h6'>Product Gaurantee</div>
                                     </div>
                               </div>
                               <div className="col"><div className='pro-card text-center'>
                                     <span className='promise-icons'>
-                                    <BsShop/>
+                                          <BsShop />
                                     </span>
                                     <div className='text-primary h6 mt-3'>All under one roof</div>
                                     <div className='h6'>Unbaised Products Comparison</div>
                               </div></div>
                               <div className="col"><div className='pro-card text-center'>
                                     <span className='promise-icons'>
-                                          <BsCurrencyRupee/>
+                                          <BsCurrencyRupee />
                                     </span>
                                     <div className='text-primary h6 mt-3'>Whosale</div>
                                     <div className='h6'>Pricing</div>
                               </div></div>
                               <div className="col"><div className='pro-card text-center'>
                                     <span className='promise-icons'>
-                                          <BsPersonWorkspace/>
+                                          <BsPersonWorkspace />
                                     </span>
                                     <div className='text-primary h6 mt-3'>40+ Prodcut Experts</div>
                                     <div className='h6'>Learn what is right for you</div>

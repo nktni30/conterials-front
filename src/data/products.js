@@ -1,53 +1,53 @@
-import marble1 from './img/marble/1.png'
-import basin1 from './img/sanitary/Closet/col1.png'
-import basin2 from './img/sanitary/Closet/col2.png'
-import paint1 from './img/Paint and paint products/Halo/yellow.png'
+import paint1 from './img/Products/1.png'
+import paint2 from './img/Products/2.png'
+import paint3 from './img/Products/3.png'
+import paint4 from './img/Products/4.png'
 
 export const allProducts = [
       {
             "id": 1,
-            "productName": "Greylac",
-            "brand": "kajaria",
-            "category": "Tiling",
-            "subCategory": "Tiles",
-            "image": marble1,
-            "description": "The white marble",
+            "productName": "JSW Aurus Interior ",
+            "brand": "JSW Paints",
+            "category": "Painting",
+            "subCategory": "Paints",
+            "image": paint1,
+            "description": "Interior Paints",
             "size": "2x2 ft.",
             "onOffer": "true",
             "popular": "true"
       },
       {
             "id": 2,
-            "productName": "Modern Toilet",
-            "brand": "Somany",
-            "category": "Sanitary",
-            "subCategory": "Closet",
-            "image": basin1,
-            "description": "This is wash basin",
+            "productName": "JSW Pixa Interior ",
+            "brand": "JSW Paints",
+            "category": "Painting",
+            "subCategory": "Paints",
+            "image": paint2,
+            "description": "Interior Paints",
             "size": "M",
             "onOffer": "true",
             "popular": "true"
       },
       {
             "id": 3,
-            "productName": "Wash Basin",
-            "brand": "Somany",
-            "category": "Sanitary",
-            "subCategory": "Closet",
-            "image": basin2,
-            "description": "This is wash basin",
+            "productName": "JSW Aurus Exterior ",
+            "brand": "JSW Paints",
+            "category": "Painting",
+            "subCategory": "Paints",
+            "image": paint3,
+            "description": "Exterior Paints",
             "size": "L",
             "onOffer": "true",
             "popular": "true"
       },
       {
             "id": 4,
-            "productName": "Gold Silk interior",
-            "brand": "Halo",
-            "category": "Paints",
-            "subCategory": "Silk Interior Paaints",
-            "image": paint1,
-            "description": "This is wash basin",
+            "productName": "JSW Pixa Exterior ",
+            "brand": "JSW Paints",
+            "category": "Painting",
+            "subCategory": "Paints",
+            "image": paint4,
+            "description": "JSW Pixa Exterior",
             "size": "L",
             "onOffer": "true",
             "popular": "true"

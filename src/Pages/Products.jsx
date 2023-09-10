@@ -32,7 +32,12 @@ const Products = () => {
                               </div>
                         </div>
 
-                        <div className='row'>
+<div className="row">
+      <div className="col-12">
+            <h1>Item will be displayed soon...</h1>
+      </div>
+</div>
+                        {/* <div className='row'>
                               <div className='col-lg-3 col-12 col-md-4'>
                                     <div className='card p-3 pb-0 rounded-0 border-0'>
                                           <div className='row'>
@@ -50,7 +55,7 @@ const Products = () => {
                                           </div>
                                     </div>
                               </div>
-                        </div>
+                        </div> */}
                   </div>
             </>
       )

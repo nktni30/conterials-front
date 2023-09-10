@@ -10,14 +10,14 @@ import Banner from "../components/Banner";
 const Home = () => {
       return (
             <>
-                  <Banner/>
+                  <Banner />
                   <Categories />
-                  <PopularProducts/>
-                  <AdBanner1/>
-                  <Brands/>
-                  <Promises/>
-                  <Footer/>
-                  </>
+                  <PopularProducts />
+                  <AdBanner1 />
+                  <Brands />
+                  <Promises />
+                  <Footer />
+            </>
       )
 }
 

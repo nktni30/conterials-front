@@ -1,10 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 const Product = (curElm) => {
-      const {id, productName, category, brand, image, size }= curElm;
+      const { id, productName, category, brand, image, size } = curElm;
       return (
-            <NavLink className="text-decoration-none" to={`/SingleProduct/${id}`}>
+            // <NavLink className="text-decoration-none" to={`/SingleProduct/${id}`}>
                   <div className='col mb-4'>
                         <div class="pro-card">
                               <div className='img-box'>
@@ -15,13 +15,13 @@ const Product = (curElm) => {
                                     <h6 class="con-card-title">{productName}</h6>
                                     <div class="con-card-details d-flex justify-content-between">
                                           <div><span>Brand: </span>{brand} </div>
-                                          <div><span>Size:</span> {size}</div>
+                                          <div><span>Category:</span> {category}</div>
                                     </div>
 
                               </div>
                         </div>
                   </div>
-            </NavLink>
+            // </NavLink>
       )
 }
 

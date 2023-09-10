@@ -13,6 +13,13 @@
   --paragraph-color:#444444;
 }
 
+.con-teal{
+  color: var(--con-primary);
+}
+
+.con-orange{
+  color: var(--con-secondary);
+}
 
 .icon-dark{
   color: var(--con-primary);
@@ -113,7 +120,7 @@ p{
 
 .ad-banner{
   width: 100%;
-  height: 50vh;
+  height: auto;
 }
 
 /*product list 2 cloumns card */

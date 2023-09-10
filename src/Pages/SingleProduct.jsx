@@ -1,37 +1,31 @@
-import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { useGlobalDataContext } from '../context/ProductConetxt';
+import React from 'react';
 import ProdSlider from '../components/ProdSlider';
 
 
-const API = "https://api.pujakaitem.com/api/products";
-
 const SingleProduct = () => {
-  const { getSingleProduct, isSingleLoading, singleProduct } = useGlobalDataContext();
+  // const [singleProduct, setSingleProduct]= useState([]);
 
-  const { id } = useParams();
+  // const { id } = useParams();
 
-  const { id: alias, image, name, company, description, category } = singleProduct;
+  // useEffect(() => {
+  //   const getSingleProduct = product.map((curElm))
+  // }, []);
 
-  useEffect(() => {
-    getSingleProduct(`${API}?id=${id}`);
-  }, []);
-
-  if (isSingleLoading) {
-    return <div>........Loading</div>;
-  }
+  // if (isSingleLoading) {
+  //   return <div>........Loading</div>;
+  // }
 
   return (
     <div className='container mt-5'>
-
-          <ProdSlider prodimgs={image} />
+      {/* //map the image here */}
+      <ProdSlider prodimgs=''/>
 
       <div className='row mb-2'>
         <div className='col-6'>
-           <h5>{name}</h5>
+          <h5>Name of the Product</h5>
         </div>
         <div className='col-6 d-flex justify-content-end'>
-          {company}
+          Brnad Name
         </div>
       </div>
       <div className='row mb-2'>
@@ -44,13 +38,13 @@ const SingleProduct = () => {
         </div>
       </div>
       <div className='row'>
-        <p>{category}</p>
+        <p>categry Name</p>
       </div>
       <div className='row'>
         <div className='col'>
           <div className='card border-0 rounded-0 p-3'>
             <h6>Description</h6>
-            <p>{description}</p>
+            <p>all Description</p>
           </div>
         </div>
       </div>

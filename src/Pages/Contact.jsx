@@ -1,5 +1,5 @@
 import React from 'react';
-import ConatctForm from '../components/ConatctForm';
+// import ConatctForm from '../components/ConatctForm';
 import { BsGeoAltFill, BsTelephoneFill, BsEnvelopeFill } from 'react-icons/bs';
 import Footer from '../components/Footer';
 import BannerImg from '../img/about/banner-img.png';
@@ -98,7 +98,7 @@ const Contact = () => {
             <div className='card rounded-0 border-0 p-3'>
               <div className='h5 text-center my-3'>Leave your Message here</div>
               <div className="card-body">
-                <ConatctForm/>
+                {/* <ConatctForm/> */}
 
               </div>
             </div>
