@@ -89,17 +89,17 @@ const Contact = () => {
         </div>
 
         {/* Form */}
-        <div className='row mb-5'>
+        {/* <div className='row mb-5'>
           <div className='col-12 col-sm-12'>
             <div className='card rounded-0 border-0 p-3'>
               <div className='h5 text-center my-3'>Leave your Message here</div>
               <div className="card-body">
-                {/* <ConatctForm/> */}
+                <ConatctForm/>
 
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <Footer />

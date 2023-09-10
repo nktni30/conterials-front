@@ -3,20 +3,24 @@ import FAQs from '../components/FAQs';
 import { BsCheck2All, BsGrid3X3GapFill, BsPatchCheckFill } from 'react-icons/bs';
 import BannerImg from '../img/about/banner-img.png';
 import OurMission from '../img/about/our-mission.jpg';
-import { useGlobalDataContext } from '../context/ProductConetxt';
+
 
 const About = () => {
-  const {myName} = useGlobalDataContext();
+
   return (
     <>
-    {myName}
+
       <div className='container-fluid bg-blue-grad mb-5'>
-        <div className='row row-col-2 about-banner '>
-          <div className='col-3 d-flex align-items-center ps-5'>
+        <div className='row  '>
+          <div className="container">
+            <div className="row row-col-2 about-banner">
+            <div className='col-6 d-flex align-items-center justify-content-start justify-content-lg-center ps-5'>
             <h1 className='text-white'>About <br /> Us</h1>
           </div>
-          <div className='col-9 d-flex mt-5'>
+          <div className='col-6 d-flex mt-5 justify-content-lg-center justify-content-sm-start'>
             <img alt='banner-img' className='about-banner-img' src={BannerImg} />
+          </div>
+            </div>
           </div>
         </div>
       </div>

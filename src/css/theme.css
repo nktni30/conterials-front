@@ -78,6 +78,16 @@ p{
 }
 
 
+/* about */
+
+.about-banner{
+  height: auto;
+}
+
+.about-banner-img{
+  height: 70vh;
+}
+
 
 /* categories */
 
