@@ -77,8 +77,8 @@ function ConSidebar() {
                               <SubMenu label="Electrical"></SubMenu>
                               <SubMenu label="Hardware"></SubMenu>
                               <SubMenu label="Home Improvement"></SubMenu>
-                              <SubMenu label="Sanitry"></SubMenu>
-                              <SubMenu label="Tiling"></SubMenu>
+                              <SubMenu label="Sanitary"></SubMenu>
+                              <SubMenu label="Tiles"></SubMenu>
                         </Menu>
                         <hr></hr>
                         <Menu>
